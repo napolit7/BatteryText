@@ -1,0 +1,9 @@
+Package: com.napolit7.batterytext
+Name: BatteryText
+Version: 1.2.2
+Architecture: iphoneos-arm
+Description: Change the battery text
+Maintainer: napolit7
+Author: napolit7
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

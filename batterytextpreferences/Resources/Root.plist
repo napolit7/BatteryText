@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings for BatteryText</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.napolit7.BatteryTextPreferences</string>
+			<key>key</key>
+			<string>toggleSwitch</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom battery text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.napolit7.BatteryTextPreferences</string>
+			<key>key</key>
+			<string>customTextSwitch</string>
+			<key>label</key>
+			<string>Use custom text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.napolit7.BatteryTextPreferences</string>
+			<key>key</key>
+			<string>batteryText</string>
+			<key>label</key>
+			<string>Custom text:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>label</key>
+            <string>Themes</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>selectedTheme</string>
+            <key>default</key>
+            <integer>0</integer>
+			<key>defaults</key>
+			<string>com.napolit7.BatteryTextPreferences</string>
+            <key>title</key>
+            <string>Themes</string>
+            <key>validTitles</key>
+            <array>
+				<string>None</string>
+                <string>Remove % sign</string>
+				<string>Convert number to word</string>
+				<string>Roman numerals</string>
+				<string>Hexadecimal</string>
+				<string>Binary</string>
+				<string>Octal</string>
+            </array>
+			<key>validValues</key>
+            <array>
+                <integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+            </array>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>BatteryText</string>
+</dict>
+</plist>
