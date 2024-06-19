@@ -26,7 +26,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Custom battery text</string>
+			<string>Options</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -51,10 +51,6 @@
 			<string>batteryText</string>
 			<key>label</key>
 			<string>Custom text:</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
 		</dict>
 		<dict>
             <key>cell</key>
@@ -92,6 +88,22 @@
 				<integer>6</integer>
             </array>
         </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>action</key>
+			<string>respringDevice</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>BatteryText</string>
