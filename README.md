@@ -2,11 +2,11 @@
 
 BatteryText allows you to change the text of your battery percentage to anything you want, including prebuilt themes and an option for completely custom text.
 
-![battery text](./screenshots/battery.png?raw=true)
+![battery text](./screenshots/battery.jpg?raw=true)
 
-![settings](./screenshots/settings.png?raw=true)
+![settings](./screenshots/settings.jpg?raw=true)
 
-![themes](./screenshots/themes.png?raw=true)
+![themes](./screenshots/themes.jpg?raw=true)
 
 **Requirements**
 * Jailbroken iOS device on iOS 14 (untested on other versions, but likely functional on neighboring versions)
